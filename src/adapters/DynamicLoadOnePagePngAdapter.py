@@ -1,4 +1,4 @@
-from f_is_for_freedom.Adapter import Adapter
+from web2pdf.Adapter import Adapter
 
 
 from PIL import Image
