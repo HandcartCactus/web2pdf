@@ -1,5 +1,6 @@
 # web2pdf
-Flexible utilities for turning multi-page websites into PDF documents for offline reading.
+Flexible utilities for turning multi-page websites into PDF documents for offline reading. Respects resource-limited websites and simulates a real user.
+
 ## Demo
 The following code turns the website `https://www.example.com/multi-page-calculus-tutorial/` into an OCR'd PDF for later reading. The Website has multiple pages of varying length, with a significant number of images and diagrams. The `VariablePageSizePngAdapter` is a good choice. Using XPATH, we identify both the link to the next page `NEXT_PAGE_XPATH = '//div[@data-testid="NextPage"]/a'` and the XPATH for the main page content, which loads dynamically `PAGE_CONTENT_XPATH = '//section[@data-testid="DynamicPageContent"]'`. The code saves each page as a set of 8.5" x 11" images, then wraps them into an OCR'd PDF, and cleans up the images since they are no longer needed.
 ```python
