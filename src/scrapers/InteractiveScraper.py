@@ -1,6 +1,6 @@
-from f_is_for_freedom.compilers.Compiler import Compiler
-from f_is_for_freedom.storage.Storage import Storage
-from f_is_for_freedom.adapters.Adapter import Adapter
+from web2pdf.compilers.Compiler import Compiler
+from web2pdf.storage.Storage import Storage
+from web2pdf.adapters.Adapter import Adapter
 
 
 from selenium.webdriver.remote.webdriver import WebDriver
