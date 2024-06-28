@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "web2pdf"
+version = "0.1.0"
+description = "Flexible utilities for turning multi-page websites into PDF documents for offline reading. Respects resource-limited websites and simulates a real user."
+authors = [
+    {name = "Elias Jaffe", email="elijaffe173@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pypdf","selenium","img2pdf","ocrmypdf"   
+]
+
+classifiers=[
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+]
+
+[project.urls]
+homepage = "https://github.com/HandcartCactus/web2pdf"
+repository = "https://github.com/HandcartCactus/web2pdf"
