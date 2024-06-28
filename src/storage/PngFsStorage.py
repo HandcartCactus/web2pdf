@@ -1,4 +1,4 @@
-from f_is_for_freedom.storage.Storage import Storage
+from web2pdf.storage.Storage import Storage
 
 
 from PIL import Image
