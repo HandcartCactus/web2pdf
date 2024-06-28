@@ -1,4 +1,4 @@
-from f_is_for_freedom.compilers.Compiler import Compiler
+from web2pdf.compilers.Compiler import Compiler
 
 
 import img2pdf
